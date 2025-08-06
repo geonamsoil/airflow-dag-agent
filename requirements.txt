@@ -1,0 +1,28 @@
+# Core dependencies
+crewai>=0.40.0
+langchain>=0.1.0
+langchain_community
+langchain-google-genai>=0.0.6
+langchain-openai>=0.0.5
+langchain-huggingface>=0.1.0
+pydantic>=2.0.0,<3.0.0
+numpy>=1.24.0
+sentence-transformers>=2.2.2
+
+# Embedding dependencies
+openai>=1.6.0
+google-generativeai>=0.3.2
+
+# Airflow related - using compatible version that doesn't require compilation
+apache-airflow==2.9.1
+
+docker>=6.1.0
+
+# Utilities
+python-dotenv>=1.0.0
+requests>=2.31.0
+tqdm>=4.66.1
+tenacity>=8.2.3
+
+# Specific version of PyYAML that's available as a wheel
+PyYAML==6.0.1
